@@ -472,8 +472,14 @@ footer {
 /* Responsive Design */
 
 @media only screen and (max-width: 600px) {
-    body {
-      width: 100%;
+    *{
+        width: 100rem;
+    }
+
+    html, body {
+      width: 100rem;
+
+
     }
     .hero {
         height: 50rem;
