@@ -470,7 +470,9 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-
+body{
+    width: 100%;   
+}
     .hero {
         height: 50rem;
         padding: 2rem 0rem;
