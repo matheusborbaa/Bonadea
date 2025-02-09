@@ -473,7 +473,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      width: 100%;
     }
   }
 @media (max-width: 768px) {
