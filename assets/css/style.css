@@ -11,7 +11,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f0f0;
-    width: 100%;   
+    width:100rem;   
 }
 
 
@@ -472,12 +472,8 @@ footer {
 /* Responsive Design */
 
 @media only screen and (max-width: 600px) {
-    *{
-        max-width: 50rem;
-    }
-
-    html, body {
-        max-width: 50rem;
+    body {
+        width:100rem;   
     }
     .hero {
         height: 50rem;
@@ -548,7 +544,7 @@ footer {
   }
 @media (max-width: 768px) {
 body{
-    width: 100%;   
+    width:100rem;   
 }
     .hero {
         height: 50rem;
