@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Press+Start+2P&display=swap');
 
 * {
     margin: 0;
@@ -338,7 +338,6 @@ nav {
 .testimonial-image {
     width: 64px;
     height: 64px;
-    border-radius: 50%;
     overflow: hidden;
 }
 
@@ -364,6 +363,10 @@ nav {
     content: '"';
     position: absolute;
     top: -10px;
+        font-family: "Passion One", serif;
+        font-weight: 200;
+        font-style: normal;
+      
     left: -20px;
     font-size: 4rem;
     opacity: 0.8;
