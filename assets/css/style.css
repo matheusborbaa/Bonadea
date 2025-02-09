@@ -472,12 +472,9 @@ footer {
 /* Responsive Design */
 
 @media only screen and (max-width: 600px) {
-    *{
-        width: 100%;
-    }
 
     html, body {
-      width: 100%;
+      max-width: 600px;
 
 
     }
