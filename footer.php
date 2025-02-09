@@ -1,19 +1,48 @@
-<footer>
-    <div class="logo">
-        <a href="<?php echo get_home_url(); ?>">
-            <img src="<?php echo _URLTHEME; ?>/assets/img/logo-bonadea-branco.png" alt="Logo Bonadea">
-        </a>
-    </div>
-    <div class="center">
-        <h3>Navegação</h3>
-        <?php wp_nav_menu(array('theme_location' => 'footer_menu')); ?>
-    </div>
-    <div class="right">
-       <a class="socials" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a class="socials" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a class="socials" href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-    </div>
-</footer>
+
+<footer id="contato">
+        <div class="footer-content">
+            <img src="<?php echo _URLTHEME; ?>/assets/img/logo-footer.png" alt="">
+            <div class="informations">
+                <div>
+                    <p>Endereço: 133/2 - Lisboa - PT</p>
+                    <p>www.bonadea.pt</p>
+                </div>
+                <div>
+                    <p>contato@bonadea.pt</p>
+                    <p>91264-5395</p>
+                </div>
+                <div>
+                    <p>De Terça a Sábado das 9h às 19h</p>
+                    <p>Mais de 160 MIL Mulheres transformadas</p>
+                </div>
+            </div>
+            <p>www.bonadea.pt. All Right Reserved</p>
+        </div>
+    </footer>
+
+    <script>
+
+
+
+$(window).scroll(function() { 
+    var scroll = $(window).scrollTop();
+
+    if (scroll > 500) {
+        $('.menu').css('background-color','yellow');
+    } else {
+        $('.menu').css('background-color','blue');
+    }
+});
+
+
+        // Progress bar
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.querySelector('.progress-bar').style.width = scrolled + '%';
+        });
+    </script>
 <?php wp_footer(); ?>
 </body>
 </html>
