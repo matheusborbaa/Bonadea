@@ -473,7 +473,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     body {
-        width:100rem;   
+        width:max-content;   
     }
     .hero {
         height: 50rem;
