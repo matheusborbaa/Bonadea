@@ -475,6 +475,72 @@ footer {
     body {
       width: 100%;
     }
+    .hero {
+        height: 50rem;
+        padding: 2rem 0rem;
+        background-position: top;
+    }
+
+    .hero p {
+        display: none;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .section.right {
+        width: 0;
+    }
+
+    .vertical-text {
+        transform: translateY(0%) rotate(0deg);
+        font-size: 27px;
+        letter-spacing: 0px;
+        font-weight: bold;
+        left: 0;
+        top: 45%;
+        right: 0;
+        padding: 0 3rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    /*
+    .testimonial-card{
+        margin-right: 24px;
+    }
+
+    .service-card,
+    .testimonial-card,
+    .testimonial-right {
+        min-width: 260px;
+    }
+
+    .services h2 {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+    .services p{
+        font-size: 16px;
+    }
+    
+    */
+    .informations{
+        flex-direction: column;    
+        gap: 24px;
+    }
+
   }
 @media (max-width: 768px) {
 body{
