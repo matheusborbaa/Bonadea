@@ -167,7 +167,13 @@ get_header();
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
         </article>
-        
+        <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
       </div>
     </div>
     </div>
