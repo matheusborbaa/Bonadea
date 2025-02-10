@@ -54,3 +54,5 @@ while ( $nomeArquivosClasses = readdir ( $ponteiroClasses ) ) {
     }
 
 }
+
+

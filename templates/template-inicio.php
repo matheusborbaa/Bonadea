@@ -8,54 +8,78 @@
 get_header();
 ?>
 <section class="hero" id="home">
-    <div class="banner">
-        <!-- Seção Esquerda -->
+    <?php if (wp_is_mobile()) : ?>
+        <!-- Versão para Mobile: Seções empilhadas -->
         <div class="section left">
             <div class="text">
-                <h2 class="cima">Elevamos a sua <BR>Auto-Estima</h2>
+                <h2 class="cima">Elevamos a sua <br>Auto-Estima</h2>
             </div>
             <div class="image">
-                <img src="<?php echo _URLTHEME; ?>/assets/img/mulher-creme.png" alt="Mulher aplicando creme no rosto" >
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mulher-creme.png" alt="Mulher aplicando creme no rosto">
             </div>
-            <h2 class="baixo">Tratamento EStético</h2>
+            <h2 class="baixo">Tratamento Estético</h2>
             <p>Transforme sua rotina de beleza com nossos tratamentos exclusivos.</p>
-
-            
         </div>
 
-        <!-- Seção Central -->
         <div class="section center">
             <div class="content">
-            
-            <div class="sol">
-                <img src="<?php echo _URLTHEME; ?>/assets/img/sol.png" width='50px' height="auto" alt="Mulher aplicando creme no rosto">
-            </div>
-            <div class="estrela">
-                <img src="<?php echo _URLTHEME; ?>/assets/img/estrela.png" width='50px' height="auto" alt="Mulher aplicando creme no rosto">
-            </div>
-                <h1>    Inspirados pela <div class="capitalize">Natureza</div> </h1>
+                <div class="sol">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sol.png" width='50px' height="auto" alt="Sol">
+                </div>
+                <div class="estrela">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/estrela.png" width='50px' height="auto" alt="Estrela">
+                </div>
+                <h1>Inspirados pela <div class="capitalize">Natureza</div></h1>
                 <p>Experimente o luxo da simplicidade. Tratamentos para sua pele e alma.</p>
                 <button class="btn">SAIBA MAIS</button>
-
             </div>
         </div>
 
-        <!-- Seção Direita -->
-        <div class="section right" style="background-image: url(''); ">
+        <div class="section right">
             <div class="image">
-                <img src="<?php echo _URLTHEME; ?>/assets/img/mulher02.png" alt="Corpo feminino">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mulher02.png" alt="Corpo feminino">
             </div>
             <div class="vertical-text">INSTITUTO DE BELEZA</div>
         </div>
 
-        <!-- Ícones de redes sociais -->
-        <div class="social-icons">
-            <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
+    <?php else : ?>
+        <!-- Versão para Desktop: Layout original com seções lado a lado -->
+        <div class="banner">
+            <div class="section left">
+                <div class="text">
+                    <h2 class="cima">Elevamos a sua <br>Auto-Estima</h2>
+                </div>
+                <div class="image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mulher-creme.png" alt="Mulher aplicando creme no rosto">
+                </div>
+                <h2 class="baixo">Tratamento Estético</h2>
+                <p>Transforme sua rotina de beleza com nossos tratamentos exclusivos.</p>
+            </div>
+
+            <div class="section center">
+                <div class="content">
+                    <div class="sol">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sol.png" width='50px' height="auto" alt="Sol">
+                    </div>
+                    <div class="estrela">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/estrela.png" width='50px' height="auto" alt="Estrela">
+                    </div>
+                    <h1>Inspirados pela <div class="capitalize">Natureza</div></h1>
+                    <p>Experimente o luxo da simplicidade. Tratamentos para sua pele e alma.</p>
+                    <button class="btn">SAIBA MAIS</button>
+                </div>
+            </div>
+
+            <div class="section right">
+                <div class="image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mulher02.png" alt="Corpo feminino">
+                </div>
+                <div class="vertical-text">INSTITUTO DE BELEZA</div>
+            </div>
         </div>
-    </div>
+    <?php endif; ?>
 </section>
+
 
 <section class="services" id="beleza">
     <h2>Nossos serviços</h2>
