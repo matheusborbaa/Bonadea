@@ -82,62 +82,94 @@ get_header();
 
 
 <section class="services" id="beleza">
-    <h2>Nossos serviços</h2>
+    <div class="titulo"><h2>Nossos serviços</h2>
     <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis ex nihil dolore non
         doloremque harum.</p>
+    </div>
 
-    <div class="services-carousel">
-        <div class="service-card">
-            <div class="service-image" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/olho.png')"></div>
-            <h3>Beauty Care</h3>
-            <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis.</p>
-        </div>
-        <div class="service-card">
-        <div class="service-image" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/hifu.png')"></div>
-        <h3>HIFU</h3>
-            <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis.</p>
-        </div>
-        <div class="service-card">
-        <div class="service-image" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/hifu.png')"></div>
-            <h3>Face Care</h3>
-            <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis.</p>
-        </div>
-        <div class="service-card">
-        <div class="service-image" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/hifu.png')"></div>
-            <h3>Hair Care</h3>
-            <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis.</p>
-        </div>
-        <div class="service-card">
-        <div class="service-image" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/hifu.png')"></div>
-            <h3>BrowFiller</h3>
-            <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis.</p>
-        </div>
-        <div class="service-card">
-        <div class="service-image" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/hifu.png')"></div>
-            <h3>HIFU</h3>
-            <h4>(Ultrassom localizado de alta intencidade)</h4>
-            <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis.</p>
-        </div>
-        <div class="service-card">
-        <div class="service-image" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/hifu.png')"></div>
-            <h3>Lazer de Fungos</h3>
-            <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis.</p>
-        </div>
-        <div class="service-card">
-        <div class="service-image" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/hifu.png')"></div>
-            <h3>Pedicure Médica</h3>
-            <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis.</p>
-        </div>
-        <div class="service-card">
-        <div class="service-image" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/hifu.png')"></div>
-            <h3>Microagulhamento</h3>
-            <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis.</p>
-        </div>
-        <div class="service-card">
-        <div class="service-image" style="background-image: url('<?php echo _URLTHEME; ?>/assets/img/hifu.png')"></div>
-            <h3>Limpeza de Pele Profunda</h3>
-            <p>Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis.</p>
-        </div>
+
+      
+        <div id="cCarousel">
+    <div class="arrow" id="prev"><i class="fa fa-arrow-left"></i></div>
+    <div class="arrow" id="next"><i class="fa fa-arrow-right"></i></div>
+
+    <div id="carousel-vp">
+      <div id="cCarousel-inner">
+
+     
+      <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <div class="infos">
+          <h3>Beauty Care</h3>
+         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+          </div>
+        </article>
+        
+      </div>
+    </div>
     </div>
 </section>
 
@@ -247,6 +279,75 @@ get_header();
         <span class="indicator"></span>
     </div>
 </section>-->
+
+
+
+
+<script>
+        const prev = document.querySelector("#prev");
+const next = document.querySelector("#next");
+
+let carouselVp = document.querySelector("#carousel-vp");
+
+let cCarouselInner = document.querySelector("#cCarousel-inner");
+let carouselInnerWidth = cCarouselInner.getBoundingClientRect().width;
+
+let leftValue = 0;
+
+// Variable used to set the carousel movement value (card's width + gap)
+const totalMovementSize =
+  parseFloat(
+    document.querySelector(".service-card").getBoundingClientRect().width,
+    10
+  ) +
+  parseFloat(
+    window.getComputedStyle(cCarouselInner).getPropertyValue("gap"),
+    10
+  );
+
+prev.addEventListener("click", () => {
+  if (!leftValue == 0) {
+    leftValue -= -totalMovementSize;
+    cCarouselInner.style.left = leftValue + "px";
+  }
+});
+
+next.addEventListener("click", () => {
+  const carouselVpWidth = carouselVp.getBoundingClientRect().width;
+  if (carouselInnerWidth - Math.abs(leftValue) > carouselVpWidth) {
+    leftValue -= totalMovementSize;
+    cCarouselInner.style.left = leftValue + "px";
+  }
+});
+
+const mediaQuery510 = window.matchMedia("(max-width: 510px)");
+const mediaQuery770 = window.matchMedia("(max-width: 770px)");
+
+mediaQuery510.addEventListener("change", mediaManagement);
+mediaQuery770.addEventListener("change", mediaManagement);
+
+let oldViewportWidth = window.innerWidth;
+
+function mediaManagement() {
+  const newViewportWidth = window.innerWidth;
+
+  if (leftValue <= -totalMovementSize && oldViewportWidth < newViewportWidth) {
+    leftValue += totalMovementSize;
+    cCarouselInner.style.left = leftValue + "px";
+    oldViewportWidth = newViewportWidth;
+  } else if (
+    leftValue <= -totalMovementSize &&
+    oldViewportWidth > newViewportWidth
+  ) {
+    leftValue -= totalMovementSize;
+    cCarouselInner.style.left = leftValue + "px";
+    oldViewportWidth = newViewportWidth;
+  }
+}
+
+        </script>
+
+
 
 <?php
 
