@@ -20,10 +20,7 @@
         <nav class="menu">
             <img class="logo" src="<?php echo _URLTHEME; ?>/assets/img/logo.png" alt="">
             <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#beleza">Beleza</a>
-                <a href="#estetica">Estética</a>
-                <a href="#contato">Contato</a>
+            <?php wp_nav_menu(array('theme_location' => 'main_menu')); ?>
             </div>
         </nav>
         <div class="progress-bar" ></div>
