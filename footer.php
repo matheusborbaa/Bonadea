@@ -19,7 +19,17 @@
             <p>www.bonadea.pt. All Right Reserved</p>
         </div>
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="<?php echo _URLTHEME; ?>/assets/js/slick.min.js"></script>
 
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.services-carousel').slick({
+        setting-name: setting-value
+      });
+    });
+  </script>
     <script>
 
 
