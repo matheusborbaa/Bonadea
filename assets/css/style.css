@@ -336,7 +336,7 @@ nav {
   
 #cCarousel .arrow {
     position: absolute;
-    top: 33%;
+    top: 50%;
     display: flex;
     width: 45px;
     height: 45px;
