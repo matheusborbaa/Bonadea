@@ -19,7 +19,7 @@ body {
 
 /* Header Styles */
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -32,10 +32,12 @@ header {
 
 nav {
     max-width: 1200px;
-    margin: 0;
+    margin-left: 9%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    justify-items: center;
     padding: 1rem;
 }
 
@@ -45,9 +47,19 @@ nav {
     height: 40px;
     margin: auto;
 }
+.nav-links .menu{
+    display: flex;
+    margin-left: 14%;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    gap: 3rem;
 
+}
 .nav-links {
     display: flex;
+    flex-direction: row;
     gap: 2rem;
 }
 
