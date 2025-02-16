@@ -98,82 +98,75 @@ get_header();
 
      
       <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/beautycare.png">
           <div class="infos">
           <h3>Beauty Care</h3>
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
         </article>
         <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/bodycare.png">
           <div class="infos">
-          <h3>Beauty Care</h3>
+          <h3>Body Care</h3>
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
         </article>
         <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/facecare.png">
           <div class="infos">
-          <h3>Beauty Care</h3>
+          <h3>Face Care</h3>
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
         </article>
         <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/haircare.png">
           <div class="infos">
-          <h3>Beauty Care</h3>
+          <h3>Hair Care</h3>
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
         </article>
         <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/browfiller.png">
           <div class="infos">
-          <h3>Beauty Care</h3>
+          <h3>Browfiller</h3>
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
         </article>
         <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/hifu.png">
           <div class="infos">
-          <h3>Beauty Care</h3>
+          <h3>HIFU<br><small>(Ultrassom Focalizado de Alta Intensidade)</small></h3>
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
         </article>
         <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/laserfungos.png">
           <div class="infos">
-          <h3>Beauty Care</h3>
+          <h3>Laser de Fungos</h3>
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
         </article>
         <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/pedicuremedica.png">
           <div class="infos">
-          <h3>Beauty Care</h3>
+          <h3>Pedicure Médica</h3>
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
         </article>
         <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/microagulhamento.png">
           <div class="infos">
-          <h3>Beauty Care</h3>
+          <h3>Microagulhamento</h3>
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
         </article>
         <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
+          <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/limpezapeleprofunda.png">
           <div class="infos">
-          <h3>Beauty Care</h3>
+          <h3>Limpeza de Pele Profunda</h3>
          <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
           </div>
-        </article>
-        <article class="service-card">
-          <img class="service-image" src="https://images.unsplash.com/photo-1564292284209-60cce69f08ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODQ0MTA1MTJ8&ixlib=rb-4.0.3&q=80&w=400" alt="Moon">
-          <div class="infos">
-          <h3>Beauty Care</h3>
-         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
-          </div>
-        </article>
+    </article>
       </div>
     </div>
     </div>
