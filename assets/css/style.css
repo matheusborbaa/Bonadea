@@ -23,13 +23,16 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0,0.3);
     font-family: 'textbook-new' , sans-serif;
     color: white;
     z-index: 1000;
     backdrop-filter: blur(5px);
 }
+.principal{
+    background: rgb(0,0,0, 0.1);
 
+}
+.menu-auxiliar{ background: rgb(0,0,0,0.5);}
 nav {
     max-width: 1200px;
     margin-left: 9%;
@@ -321,6 +324,8 @@ nav {
     transition: all 1s ease-in-out;
     gap: 10px;
     left: 0px;
+    margin-left: 5%;
+    margin-right:5%;
   }
   @media (max-width: 460) {
     #carousel-vp {
@@ -378,7 +383,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: start;
-    transition: all .5s;;
+    transition: all .5s;
 
 }
 
@@ -441,6 +446,7 @@ nav {
 .testimonials {
     background: #b39b94;
     padding: 4rem 2rem;
+  
 }
 
 .testimonials-carousel {
@@ -450,6 +456,8 @@ nav {
     gap: 2rem;
     -webkit-overflow-scrolling: touch --webkit-fill-available;
     cursor: grab;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .testimonials-grid {
@@ -878,13 +886,15 @@ nav {
 }
 
 /* Estilos para a seção de avaliações */
-
-
+section .testiominials{
+    padding-left: 10%;
+    padding-right: 10%;;
+}
 .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 4rem;
-    min-width: 100%;
+    min-width: 80%;
     scroll-snap-align: start;
 }
 

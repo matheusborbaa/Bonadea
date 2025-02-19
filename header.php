@@ -16,7 +16,7 @@
 
     <body <?php body_class(); ?>>
             <img class="elemento-topo"src="<?php echo _URLTHEME; ?>/assets/img/elemento-topoi.png">
-    <header>
+    <header class="principal">
         <nav class="menu">
             <img class="logo" src="<?php echo _URLTHEME; ?>/assets/img/logo.png" alt="">
             <div class="nav-links">

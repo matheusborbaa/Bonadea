@@ -16,6 +16,7 @@
 ::after {
   margin: 0;
   padding: 0;
+  margin-left: 10%;
   box-sizing: border-box;
 }
 

@@ -129,42 +129,43 @@ get_header();
           <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/browfiller.png">
           <div class="infos">
           <h3>Browfiller</h3>
-         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+         <p class="text">O Browfiller é a técnica perfeita para sobrancelhas mais preenchidas e definidas, proporcionando um olhar impactante e harmonioso. Ideal para quem deseja corrigir falhas, realçar o formato ou obter um efeito natural e volumoso.</p>
           </div>
         </article>
         <article class="service-card">
           <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/hifu.png">
           <div class="infos">
           <h3>HIFU<br><small>(Ultrassom Focalizado de Alta Intensidade)</small></h3>
-         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+         <p class="text"> O HIFU é um tratamento não invasivo que utiliza ultrassom para estimular a produção de colagénio, promovendo firmeza e rejuvenescimento da pele. Ideal para lifting facial, redução de rugas e flacidez, garantindo resultados visíveis e duradouros.
+         </p>
           </div>
         </article>
         <article class="service-card">
           <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/laserfungos.png">
           <div class="infos">
           <h3>Laser de Fungos</h3>
-         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+         <p class="text"> Tratamento eficaz e seguro para a eliminação de fungos nas unhas. O laser atua diretamente sobre a área afetada, promovendo a recuperação da unha saudável sem dor ou necessidade de tratamentos invasivos.</p>
           </div>
         </article>
         <article class="service-card">
           <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/pedicuremedica.png">
           <div class="infos">
           <h3>Pedicure Médica</h3>
-         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+         <p class="text"> Um serviço especializado que vai além da estética, cuidando da saúde dos pés. Indicado para tratar calos, unhas encravadas, fissuras e outros problemas, garantindo conforto, bem-estar e um resultado impecável.</p>
           </div>
         </article>
         <article class="service-card">
           <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/microagulhamento.png">
           <div class="infos">
           <h3>Microagulhamento</h3>
-         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+         <p class="text"> O microagulhamento estimula a renovação da pele através da produção de colagénio. Perfeito para tratar manchas, cicatrizes de acne, rugas e poros dilatados, devolvendo à pele firmeza, luminosidade e um aspeto rejuvenescido.</p>
           </div>
         </article>
         <article class="service-card">
           <img class="service-image" src="<?php echo _URLTHEME; ?>/assets/img/services/limpezapeleprofunda.png">
           <div class="infos">
           <h3>Limpeza de Pele Profunda</h3>
-         <p class="text"> Lorem ipsum dolor sit amet. In quaerat rerum est minus asperiores ut rerum perspiciatis</p>
+         <p class="text"> A limpeza de pele profunda é ideal para remover impurezas, desobstruir poros e promover uma pele saudável e revitalizada. Um tratamento essencial para quem procura um rosto limpo, hidratado e com um brilho natural.</p>
           </div>
     </article>
       </div>
@@ -280,9 +281,28 @@ get_header();
 </section>-->
 
 
+<script>
 
+
+$(window).scroll(function() { 
+    var scroll = $(window).scrollTop();
+ 
+    if (scroll > 500) {
+        $('header').addClass('menu-auxiliar');
+    } else {
+        $('header').removeClass('menu-auxiliar');
+    }
+});
+
+
+
+</script>
 
 <script>
+
+
+
+
         const prev = document.querySelector("#prev");
 const next = document.querySelector("#next");
 
