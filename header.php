@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width">
-     <link rel="stylesheet" type="text/css" href="<?php echo _URLTHEME; ?>/assets/css/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="<?php echo _URLTHEME; ?>/assets/css/slick-theme.css"/>
-    
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+     <!-- <link rel="stylesheet" type="text/css" href="<php echo _URLTHEME; ?>/assets/css/slick.css"/> 
+    <link rel="stylesheet" type="text/css" href="<php echo _URLTHEME; ?>/assets/css/slick-theme.css"/>-->
 
     <?php wp_head(); ?>
 </head>

@@ -175,68 +175,110 @@ get_header();
 
 <section class="testimonials">
     <div class="testimonials-carousel">
-        <div class="testimonials-grid">
+        <div class="testimonials-grid" id="slide">
             <!-- Primeiro par de cards -->
             <div class="testimonial-card">
                 <div class="testimonial-image">
-                    <img src="<?php echo _URLTHEME; ?>/assets/img/mulher3.jpg" alt="Teresa Sobral" />
+                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
                 </div>
                 <div class="testimonial-content">
                     <p class="testimonial-quote">
-                        Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-                    </p>
-                    <h3 class="testimonial-author">Teresa Sobral</h3>
-                    <p class="testimonial-role">/ Advogada</p>
+                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!               
+                </p>
+                    <h3 class="testimonial-author">Elaine Correia</h3>
+                    <!-- <p class="testimonial-role">/ Advogada</p> -->
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
+                </div>
+                <div class="testimonial-content">
+                    <p class="testimonial-quote">
+                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!
+
+                
+                
+                
+                
+                </p>
+                    <h3 class="testimonial-author">Elaine Correia</h3>
+                    <!-- <p class="testimonial-role">/ Advogada</p> -->
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
+                </div>
+                <div class="testimonial-content">
+                    <p class="testimonial-quote">
+                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!
+
+                
+                
+                
+                
+                </p>
+                    <h3 class="testimonial-author">Elaine Correia</h3>
+                    <!-- <p class="testimonial-role">/ Advogada</p> -->
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
+                </div>
+                <div class="testimonial-content">
+                    <p class="testimonial-quote">
+                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!
+
+                
+                
+                
+                
+                </p>
+                    <h3 class="testimonial-author">Elaine Correia</h3>
+                    <!-- <p class="testimonial-role">/ Advogada</p> -->
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
+                </div>
+                <div class="testimonial-content">
+                    <p class="testimonial-quote">
+                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!
+
+                
+                
+                
+                
+                </p>
+                    <h3 class="testimonial-author">Elaine Correia</h3>
+                    <!-- <p class="testimonial-role">/ Advogada</p> -->
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-image">
+                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
+                </div>
+                <div class="testimonial-content">
+                    <p class="testimonial-quote">
+                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!
+
+                
+                
+                
+                
+                </p>
+                    <h3 class="testimonial-author">Elaine Correia</h3>
+                    <!-- <p class="testimonial-role">/ Advogada</p> -->
                 </div>
             </div>
 
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                    <img src="<?php echo _URLTHEME; ?>/assets/img/mulher2.jpg" alt="Amanda Batista" />
-                </div>
-                <div class="testimonial-content">
-                    <p class="testimonial-quote">
-                        Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-                    </p>
-                    <h3 class="testimonial-author">Amanda Batista</h3>
-                    <p class="testimonial-role">/ Engenheira</p>
-                </div>
-            </div>
             
 
-            <!-- Segundo par de cards -->
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                     <img src="<?php echo _URLTHEME; ?>/assets/img/mulher1.jpg" alt="Carla Lopez" />
-                </div>
-                <div class="testimonial-content">
-                    <p class="testimonial-quote">
-                        Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-                    </p>
-                    <h3 class="testimonial-author">Carla Lopez</h3>
-                    <p class="testimonial-role">/ Professora</p>
-                </div>
-            </div>
-
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                      <img src="<?php echo _URLTHEME; ?>/assets/img/image 10.png" alt="Jennifer" />
-                </div>
-                <div class="testimonial-content">
-                    <p class="testimonial-quote">
-                        Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.
-                    </p>
-                    <h3 class="testimonial-author">Jennifer</h3>
-                    <p class="testimonial-role">/ Lojista</p>
-                </div>
-            </div>
         </div>
-    </div>
-    <div class="scroll-indicators">
-        <span class="indicator active"></span>
-        <span class="indicator"></span>
-        <span class="indicator"></span>
-    </div>
+        
 </section>
 
 

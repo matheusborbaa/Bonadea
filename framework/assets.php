@@ -23,7 +23,6 @@ function css_js_assets(){
         '4.4.1',
         'all'
     );
-
     wp_enqueue_style(
         'font-awesome',
         _URLTHEME . '/assets/css/font-awesome.css',
@@ -31,7 +30,7 @@ function css_js_assets(){
         '4.7',
         'all'
     );
-
+/*
     wp_enqueue_style(
         'slick',
         _URLTHEME . '/assets/css/slick.css',
@@ -46,8 +45,8 @@ function css_js_assets(){
         array(),
         '1.8.1',
         'all'
-    );
-
+    ); 
+*/
     wp_enqueue_style(
         'fonts',
         _URLTHEME . '/assets/css/fonts.css',
