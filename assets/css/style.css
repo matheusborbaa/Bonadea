@@ -4,14 +4,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Karla", serif-seif;
 }
 
 body {
+    
     font-family: Arial, sans-serif;
     background-color: #f8f0f0;
-    width:100vw --webkit-fill-available;   
 }
 
 
@@ -153,7 +152,9 @@ nav {
     font-weight: 400;
 
 }
-
+.section .left p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .left .image {
     width: 100%;
     margin-top: 20px;
@@ -246,7 +247,7 @@ nav {
 .elemento-topo{
     position: absolute;
     opacity: .5;
-    z-index: 4000;
+    z-index: 300;
     top:0;
     margin-top: -300px;
     left: 600px;
@@ -288,6 +289,10 @@ nav {
 
 
 /* Services Section */
+.services{
+    min-height: 900px;
+    padding: 200px;
+}
 .services .titulo{
     padding: 4rem 1rem;
     text-align: center;
@@ -321,6 +326,7 @@ nav {
 #cCarousel #cCarousel-inner {
     display: flex;
     position: absolute;
+    min-height: 700px;
     transition: all 1s ease-in-out;
     gap: 10px;
     left: 0px;
@@ -376,8 +382,9 @@ nav {
   }
   
 .service-card {
+
     width: 450px;
-    height: 500px;
+    height: 800px;
     border: 2px solid white;
     overflow: hidden;
     display: flex;
@@ -434,17 +441,10 @@ nav {
     opacity: .5;
     font-weight: regular;
 }
-    
-
-
-
-/* carrossel novo */
-
-
+   
 
 .testemunho-sessao{
-    min-height: 400px;
-    padding-bottom: 100px;
+    min-height: 200px;
     width: 100%;
     background-color: #b39b94;
   
@@ -452,124 +452,55 @@ nav {
 .testemunho-sessao .testemunhos{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-
-    
+    width: 100% !important;    
+    left: 10%;
 }
 .testemunho-sessao .testemunhos .testemunho{
-    display: flex;
-    width: 50%;
-    height: 200px;
-    color: white;
-    background-color: black;
-    margin-top: 50px;
-    margin-right: 50px;
+    display: flex; 
+    flex-direction: column;
+    background-color: transparent;
+	color: white;
+	height: 200px;
+	width: 500px !important;
+    margin: 50px 0 50px 50px;
 }
+
 
 .testemunho-sessao .testemunhos .testemunho .left{
-    width: 60px;
-    height: 60px;
+    position: absolute;
+    width: auto;
+    height: 120px;
 }
-
-
-/* Estilos para a seção de avaliações */
-.testimonials {
-    background: #b39b94;
-    padding: 4rem 2rem;
-  
+.testemunho-sessao .testemunhos .testemunho .right{
+    position: absolute;
+   margin-left: 130px;
+   width: 420px;
 }
-
-.testimonials-carousel {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory -webkit-overflow-scrolling;
-    gap: 2rem;
-    -webkit-overflow-scrolling: touch --webkit-fill-available;
-    cursor: grab;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.testimonials-grid {
-    display: flex;
-    flex-direction: column;
-        gap: 4rem;
-    min-width: 100%;
-}
-
-.testimonial-card {
-    display: flex;
-    justify-content: space-between;
-
-    gap: 1.5rem;
-    color: white;
-}
-
-.testimonial-image {
-    width: 64px;
-    height: 64px;
-    overflow: hidden;
-}
-
-.testimonial-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.testimonial-content {
-    flex: 1;
-}
-
-.testimonial-quote {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    position: relative;
-    padding-top: 2rem;
-}
-
-.testimonial-quote::before {
+.testemunho-sessao .testemunhos .testemunho .right:before{
     content: '"';
     position: absolute;
     top: -10px;
         font-family: "Passion One", serif;
         font-weight: 200;
         font-style: normal;
-    left: -20px;
+    left: 8px;
     font-size: 4rem;
     opacity: 0.8;
 }
-
-.testimonial-author {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 0.25rem;
+.testemunho-sessao .testemunhos .testemunho .right h3{
+    margin-top: 35px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
 }
 
-.testimonial-role {
-    font-size: 0.9rem;
-    opacity: 0.9;
+.testemunho-sessao .testemunhos .testemunho .left .pessoa{
+    width: auto;
+    height: 120px;    
+    border-radius: none;
 }
 
-.scroll-indicators {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 2rem;
-}
-
-.indicator {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.3);
-    cursor: pointer;
-}
-
-.indicator.active {
-    background: white;
-}
 
 
 /* Testimonials Section 
@@ -641,8 +572,73 @@ footer {
     color: #787777;
 }
 
-/* Responsive Design */
+.cima-contato{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url('https://www.bonadea.pt/wp-content/uploads/2023/10/image00003-1.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.contato{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background-color: #d9b99b;
+}
+.contato h2{
+    text-align: center;
+    font-family: 'carlasans', serif;
+    margin-bottom: -100px;
+    padding-top: 40px;
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.contato .conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contato .left{
+    margin-top: 200px;
+}
+.contato .right{
+    margin-top: 200px;
+    padding-left: 200px;
+}
+.contato input{
+    border-radius: 20px;
+    border: none;
+    padding: 12px 15px 15px 15px;
+    height: 35px;
+}
+.contato label{
+    font-weight: 400;
+    padding: 10px 10px 10px 10px;
+}
+.contato textarea{
+    border-radius: 20px;
+    border: none;
+    height: 120px;
+    padding: 12px 15px 15px 15px;
 
+}
+.contato input[type='submit']  {
+width: 200px;
+height 20px;
+padding: 12px 15px 15px 15px;
+
+margin-top: 20px;
+margin-bottom: 80px;
+color: black;
+}
+
+
+
+/* Responsive Design */
 @media (max-width: 600px) {
 body{
     width: 100%;
@@ -657,7 +653,7 @@ header {
     background: transparent !important;
     font-family: 'textbook-new' , sans-serif;
     color: white;
-    z-index: 1000;
+    z-index: 4000;
     backdrop-filter: blur(2px);
     align-items: center;
 }
@@ -720,7 +716,7 @@ nav {
     .elemento-topo{
         position: absolute;
         opacity: .5;
-        z-index: 4000;
+        z-index: 0;
         top:0;
         margin-top: -300px;
         left: 600px;
@@ -747,7 +743,7 @@ nav {
         display: none;
     }
 
-    .section.left .cima{
+    .section .left .cima{
         font-family: 'carlasans';
         text-align: left;
         margin-top: 0;
@@ -756,7 +752,7 @@ nav {
         font-weight: 400;
     }
     
-    .section.left .baixo{
+    .section .left .baixo{
         margin-left: 80px;
         font-family: 'carlasans';
         text-align: left;

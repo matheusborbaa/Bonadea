@@ -30,7 +30,7 @@ function css_js_assets(){
         '4.7',
         'all'
     );
-
+/*
     wp_enqueue_style(
         'slick',
         _URLTHEME . '/assets/css/slick.css',
@@ -46,7 +46,7 @@ function css_js_assets(){
         '1.8.1',
         'all'
     ); 
-
+*/
     wp_enqueue_style(
         'fonts',
         _URLTHEME . '/assets/css/fonts.css',
@@ -62,7 +62,7 @@ function css_js_assets(){
         '1.0',
         'all'
     );
-
+/*
     wp_enqueue_script(
         'slick-min',
         _URLTHEME . '/assets/js/slick.min.js',
@@ -70,7 +70,7 @@ function css_js_assets(){
         '1.8.1',
         true
     );
-
+*/
     wp_enqueue_script(
         'javascript',
         _URLTHEME . '/assets/js/javascript.js',
