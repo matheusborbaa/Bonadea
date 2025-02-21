@@ -181,7 +181,7 @@ Cortes com textura e encaixe idealmente ajustado ao seu tipo de cabelo e rosto.
     </div>
     </div>
 </section>
-<section class="testemunho-sessao">
+<section class="testemunho-sessao" id="avaliacoes">
 <div class="testemunhos">
 		<div class="testemunho">
             <div class="left">
