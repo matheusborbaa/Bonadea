@@ -443,13 +443,33 @@ nav {
 
 
 .testemunho-sessao{
-    display: flex;
     min-height: 400px;
+    padding-bottom: 100px;
     width: 100%;
     background-color: #b39b94;
+  
+}
+.testemunho-sessao .testemunhos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    
+}
+.testemunho-sessao .testemunhos .testemunho{
+    display: flex;
+    width: 50%;
+    height: 200px;
+    color: white;
+    background-color: black;
+    margin-top: 50px;
+    margin-right: 50px;
 }
 
-
+.testemunho-sessao .testemunhos .testemunho .left{
+    width: 60px;
+    height: 60px;
+}
 
 
 /* Estilos para a seção de avaliações */

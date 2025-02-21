@@ -25,12 +25,13 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="/<?php echo _URLTHEME; ?>/assets/js/slick.min.js"></script>
+
 <script type="text/javascript">
     $(document).ready(function(){
-      $('.testimonials-grid').slick({
+      $('#slide').slick({
         slidesToShow: 2,
-          rows: 2,
-    autoplay: true,
+        rows: 2,
+    autoplay: false,
     arrows: false,
     dots: false,
     autoplaySpeed: 3000,

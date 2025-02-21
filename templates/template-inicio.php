@@ -173,11 +173,41 @@ get_header();
     </div>
 </section>
 <section class="testemunho-sessao">
-    <div class="testemunhos">
+    <div class="testemunhos" id="slide">
         <div class="testemunho">
                 <div class="left"><img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/01.png" alt="" class="src"></div>
                 <div class="right"></div>
         </div>
+        <div class="testemunho">
+                <div class="left"><img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/01.png" alt="" class="src"></div>
+                <div class="right"></div>
+        </div>
+        <div class="testemunho">
+                <div class="left"><img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/01.png" alt="" class="src"></div>
+                <div class="right"></div>
+        </div>
+        <div class="testemunho">
+                <div class="left"><img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/01.png" alt="" class="src"></div>
+                <div class="right"></div>
+        </div>
+        <div class="testemunho">
+                <div class="left"><img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/01.png" alt="" class="src"></div>
+                <div class="right"></div>
+        </div>
+
+        <div class="testemunho">
+                <div class="left"><img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/01.png" alt="" class="src"></div>
+                <div class="right"></div>
+        </div>
+        <div class="testemunho">
+                <div class="left"><img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/01.png" alt="" class="src"></div>
+                <div class="right"></div>
+        </div>
+        <div class="testemunho">
+                <div class="left"><img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/01.png" alt="" class="src"></div>
+                <div class="right"></div>
+        </div>
+        
     </div>
 </section>
 
