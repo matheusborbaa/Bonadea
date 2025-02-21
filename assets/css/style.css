@@ -640,6 +640,11 @@ color: black;
 
 /* Responsive Design */
 @media (max-width: 600px) {
+    
+.testemunho-sessao{
+    display: none;
+    flex-direction: columnrow
+}
 body{
     width: 100%;
     height: 100%;

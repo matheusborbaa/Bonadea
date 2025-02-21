@@ -48,6 +48,25 @@
 		  slidesToScroll: 1,
       slidesPerRow: 2,
       useCSS: false,
+      responsive: [
+        {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          slidesPerRow: 2,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+      ]
 });
     });
   </script>
