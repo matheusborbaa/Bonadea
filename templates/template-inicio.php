@@ -172,113 +172,13 @@ get_header();
     </div>
     </div>
 </section>
-
-<section class="testimonials">
-    <div class="testimonials-carousel">
-        <div class="testimonials-grid" id="slide">
-            <!-- Primeiro par de cards -->
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
-                </div>
-                <div class="testimonial-content">
-                    <p class="testimonial-quote">
-                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!               
-                </p>
-                    <h3 class="testimonial-author">Elaine Correia</h3>
-                    <!-- <p class="testimonial-role">/ Advogada</p> -->
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
-                </div>
-                <div class="testimonial-content">
-                    <p class="testimonial-quote">
-                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!
-
-                
-                
-                
-                
-                </p>
-                    <h3 class="testimonial-author">Elaine Correia</h3>
-                    <!-- <p class="testimonial-role">/ Advogada</p> -->
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
-                </div>
-                <div class="testimonial-content">
-                    <p class="testimonial-quote">
-                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!
-
-                
-                
-                
-                
-                </p>
-                    <h3 class="testimonial-author">Elaine Correia</h3>
-                    <!-- <p class="testimonial-role">/ Advogada</p> -->
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
-                </div>
-                <div class="testimonial-content">
-                    <p class="testimonial-quote">
-                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!
-
-                
-                
-                
-                
-                </p>
-                    <h3 class="testimonial-author">Elaine Correia</h3>
-                    <!-- <p class="testimonial-role">/ Advogada</p> -->
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
-                </div>
-                <div class="testimonial-content">
-                    <p class="testimonial-quote">
-                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!
-
-                
-                
-                
-                
-                </p>
-                    <h3 class="testimonial-author">Elaine Correia</h3>
-                    <!-- <p class="testimonial-role">/ Advogada</p> -->
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <div class="testimonial-image">
-                    <img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/testemunho_09.png" />
-                </div>
-                <div class="testimonial-content">
-                    <p class="testimonial-quote">
-                    Adoro tudo! Desde o espaço  que por sinal de muito bom gosto; das meninas: Bruna e Yolanda que são umas doçuras e óptimas profissionais! Já fiz sobrancelha definitiva em 3D; lifting de pestanas; extensão de pestanas e faço todos os meses depilação de buço e sobrancelha. Além da minha filhota de nove anos que virou cliente também!! Recomendo a todas conhecerem!
-
-                
-                
-                
-                
-                </p>
-                    <h3 class="testimonial-author">Elaine Correia</h3>
-                    <!-- <p class="testimonial-role">/ Advogada</p> -->
-                </div>
-            </div>
-
-            
-
+<section class="testemunho-sessao">
+    <div class="testemunhos">
+        <div class="testemunho">
+                <div class="left"><img src="<?php echo _URLTHEME; ?>/assets/img/testemunhos/01.png" alt="" class="src"></div>
+                <div class="right"></div>
         </div>
-        
+    </div>
 </section>
 
 

@@ -442,6 +442,16 @@ nav {
 
 
 
+.testemunho-sessao{
+    display: flex;
+    min-height: 400px;
+    width: 100%;
+    background-color: #b39b94;
+}
+
+
+
+
 /* Estilos para a seção de avaliações */
 .testimonials {
     background: #b39b94;
